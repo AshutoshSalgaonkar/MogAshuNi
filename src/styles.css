@@ -908,12 +908,7 @@ section.is-visible {
 }
 
 .haldi-info {
-  background: transparent;
-  border: 1px solid #c5a02833;
-  border-radius: 16px;
-  position: relative;
-  margin: 8px 0 0;
-  padding: 28px 24px 20px;
+  padding: 8px 12px 0;
 }
 
 .haldi-date {
@@ -990,7 +985,6 @@ section.is-visible {
   .haldi-time,
   .haldi-address,
   .home-directions { font-size: 0.9rem; }
-  .haldi-info { margin: 8px 2px 0; padding: 28px 16px 18px; }
   .hero h1 { font-size: 2.6rem; line-height: 1; }
   .hero-english { font-size: 1.05rem; }
   .hero-divider { width: 100px; margin: 8px 0; }
