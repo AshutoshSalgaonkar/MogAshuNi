@@ -1,3 +1,6 @@
+const keep = (name) => name.replaceAll(" ", "\u00A0")
+const joinNames = (left, right) => `${keep(left)} & ${keep(right)}`
+
 const groomHome = {
   address: "Cuchelim, Mapusa, Goa",
   mapsUrl: "https://maps.app.goo.gl/VsBxvprNnNXn8ABp9",
@@ -18,7 +21,7 @@ export const wedding = {
     names: "#MogAshuNi",
     instruction: "Tap to Open Invitation",
   },
-  blessing: "|| Shri Ganeshaya Namah ||",
+  blessing: "|| Shri Ganeshay Namah ||",
   ceremony: {
     dateLabel: "Thursday, 3rd December 2026",
     timeLabel: "at 10:53 AM",
@@ -26,29 +29,29 @@ export const wedding = {
   },
   sides: {
     groom: {
-      hosts: "Mr Ashok Salgaonkar and Mrs. Ashwini Salgaonkar",
-      invite: "cordially invite you to the wedding ceremony of their son:",
+      hosts: joinNames("Mr. Ashok Salgaonkar", "Mrs. Ashwini Salgaonkar"),
+      invite: "cordially invite you to the wedding ceremony of their son",
       first: "Ashutosh",
       second: "Niliksha",
       otherRelation: "daughter of",
-      otherParents: "Mr Shrikant Naik and Mrs Sheetal Naik",
+      otherParents: joinNames("Mr. Shrikant Naik", "Mrs. Sheetal Naik"),
       haldi: {
         label: "Haldi",
-        dateLabel: "Wednesday, 2nd December 2026",
+        dateLabel: "Wednesday, 2nd December",
         timeLabel: "at 10:00 AM",
         ...groomHome,
       },
     },
     bride: {
-      hosts: "Mr Shrikant Naik and Mrs Sheetal Naik",
-      invite: "cordially invite you to the wedding ceremony of their daughter:",
+      hosts: joinNames("Mr. Shrikant Naik", "Mrs. Sheetal Naik"),
+      invite: "cordially invite you to the wedding ceremony of their daughter",
       first: "Niliksha",
       second: "Ashutosh",
       otherRelation: "son of",
-      otherParents: "Mr Ashok Salgaonkar and Mrs. Ashwini Salgaonkar",
+      otherParents: joinNames("Mr. Ashok Salgaonkar", "Mrs. Ashwini Salgaonkar"),
       haldi: {
         label: "Haldi",
-        dateLabel: "Tuesday, 1st December 2026",
+        dateLabel: "Tuesday, 1st December",
         timeLabel: "at 10:00 AM",
         ...brideHome,
       },
