@@ -18,7 +18,7 @@ export function Invitation({ visible }) {
           <p className="haldi-address">{haldi.address}</p>
           <a className="home-directions" href={haldi.mapsUrl} target="_blank" rel="noopener noreferrer">
             <MapPin />
-            Directions to home
+            Directions To Our Home
           </a>
         </div>
         <div className="venue-info">

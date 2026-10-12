@@ -26,7 +26,7 @@ export default function App() {
           }
         })
       },
-      { threshold: 0.1 },
+      { threshold: 0 },
     )
     const sections = document.querySelectorAll('section')
     sections.forEach((section) => observer.observe(section))
