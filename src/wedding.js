@@ -1,0 +1,58 @@
+export const wedding = {
+  title: "Ashutosh & Niliksha's Wedding",
+  envelope: {
+    to: "For Our Family & Friends",
+    heading: "Shubh Vivah",
+    names: "Ashutosh & Niliksha",
+    instruction: "Tap to Open Invitation",
+  },
+  blessings: [
+    { mr: "श्री गणेशाय नमः", en: "Shri Ganeshaya Namah" },
+    { mr: "श्री साईबाबा प्रसन्न", en: "Shri Saibaba Prasanna" },
+    { mr: "श्री देवी शर्वांणी वेताळ प्रसन्न", en: "Shri Sharvani Vetal, Advalpal" },
+  ],
+  hero: {
+    blessing: "शुभ विवाह",
+    groom: "आशुतोष",
+    bride: "निलिक्षा",
+    namesEn: "Ashutosh & Niliksha",
+    dateLabel: "Thursday, 3 December 2026",
+    timeLabel: "10:53 AM",
+    countdownIso: "2026-12-03T10:53:00+05:30",
+  },
+  groom: {
+    roleMr: "वर",
+    roleEn: "Groom",
+    nameMr: "आशुतोष अशोक साळगावकर",
+    nameEn: "Ashutosh Ashok Salgaonkar",
+    relationMr: "सौ. अश्विनी व श्री. अशोक नीळू साळगावकर यांचे सुपुत्र",
+    relationEn: "Son of Ashwini Ashok Salgaonkar and Ashok Nilu Salgaonkar",
+    addressMr: "कुचॆली, म्हापसा गोवा - ४०३५०७",
+    addressEn: "H. No. 96, Cuchelim, Mapusa, Goa 403507",
+  },
+  bride: {
+    roleMr: "वधू",
+    roleEn: "Bride",
+    nameMr: "निलिक्षा श्रीकांत नाईक",
+    nameEn: "Niliksha Shrikant Naik",
+    relationMr: "सौ. शीतल व श्री. श्रीकांत नाईक यांची दुसरी कन्या",
+    relationEn: "Second daughter of Sheetal Shrikant Naik and Shrikant Naik",
+    addressMr: "खडपाबांद, फोंडा गोवा",
+    addressEn: "Khadpabandh, Ponda, Goa",
+  },
+  ceremony: {
+    time: "10:53",
+    ampm: "AM",
+    nameMr: "विवाह मुहूर्त",
+    nameEn: "Wedding Muhurt",
+    descMr: "गुरुवार, ३ डिसेंबर २०२६",
+    descEn: "Thursday, 3 December 2026",
+  },
+  venue: {
+    label: "The Venue",
+    name: "Shivtej Hall",
+    address: "Opposite Azad Bhavan, Porvorim, Goa 403521",
+    mapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=Shivtej+Hall+Opposite+Azad+Bhavan+Porvorim+Goa+403521",
+  },
+}
