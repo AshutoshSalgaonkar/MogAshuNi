@@ -6,7 +6,7 @@ export const wedding = {
     names: "Ashutosh & Niliksha",
     instruction: "Tap to Open Invitation",
   },
-  blessing: "Shri Ganeshaya Namah",
+  blessing: "|| Shri Ganeshaya Namah ||",
   hero: {
     blessing: "Shubh Vivah",
     groom: "Ashutosh",
@@ -19,9 +19,9 @@ export const wedding = {
     role: "Groom",
     name: "Ashutosh Ashok Salgaonkar",
     relation: "Son of Ashwini Ashok Salgaonkar and Ashok Nilu Salgaonkar",
-    address: "H. No. 96, Cuchelim, Mapusa, Goa 403507",
+    address: "Cuchelim, Mapusa, Goa",
     mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=H.+No.+96+Cuchelim+Mapusa+Goa+403507",
+      "https://maps.app.goo.gl/VsBxvprNnNXn8ABp9",
   },
   bride: {
     role: "Bride",
@@ -29,12 +29,12 @@ export const wedding = {
     relation: "Second daughter of Sheetal Shrikant Naik and Shrikant Naik",
     address: "Khadpabandh, Ponda, Goa",
     mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Khadpabandh+Ponda+Goa",
+      "https://maps.app.goo.gl/KLzUMdw5WPyye2Nz6",
   },
   venue: {
     label: "The Venue",
     name: "Shivtej Hall",
-    address: "Opposite Azad Bhavan, Porvorim, Goa 403521",
+    address: "Opposite Azad Bhavan, Porvorim, Goa",
     mapsUrl:
       "https://www.google.com/maps/search/?api=1&query=Shivtej+Hall+Opposite+Azad+Bhavan+Porvorim+Goa+403521",
   },
