@@ -675,6 +675,38 @@ section.is-visible {
   line-height: 1.6;
 }
 
+.family-address {
+  margin-bottom: 8px;
+}
+
+.home-directions {
+  color: var(--kunku-red);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.home-directions svg {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.home-directions:hover {
+  color: var(--forest-green);
+}
+
+.home-directions:focus-visible {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 3px;
+}
+
 .divider-ornament {
   justify-content: center;
   align-items: center;

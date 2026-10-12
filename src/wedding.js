@@ -20,12 +20,16 @@ export const wedding = {
     name: "Ashutosh Ashok Salgaonkar",
     relation: "Son of Ashwini Ashok Salgaonkar and Ashok Nilu Salgaonkar",
     address: "H. No. 96, Cuchelim, Mapusa, Goa 403507",
+    mapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=H.+No.+96+Cuchelim+Mapusa+Goa+403507",
   },
   bride: {
     role: "Bride",
     name: "Niliksha Shrikant Naik",
     relation: "Second daughter of Sheetal Shrikant Naik and Shrikant Naik",
     address: "Khadpabandh, Ponda, Goa",
+    mapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=Khadpabandh+Ponda+Goa",
   },
   ceremony: {
     time: "10:53",

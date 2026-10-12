@@ -8,6 +8,10 @@ function Family({ person }) {
       <h2 className="family-name">{person.name}</h2>
       <p className="family-relation">{person.relation}</p>
       <p className="family-address">{person.address}</p>
+      <a className="home-directions" href={person.mapsUrl} target="_blank" rel="noopener noreferrer">
+        <MapPin />
+        Directions
+      </a>
     </article>
   )
 }
