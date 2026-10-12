@@ -21,6 +21,12 @@ export function Hero() {
           <span className="ampersand">&</span>
           <span>{wedding.hero.bride}</span>
         </h1>
+        <img
+          className="couple-photo reveal"
+          src={wedding.hero.photo}
+          alt={`${wedding.hero.groom} and ${wedding.hero.bride}`}
+          style={{ animationDelay: '1s' }}
+        />
         <div className="hero-divider reveal" style={{ animationDelay: '1.1s' }} />
         <p className="date reveal" style={{ animationDelay: '1.2s' }}>{wedding.hero.dateLabel}</p>
         <p className="muhurt-time reveal" style={{ animationDelay: '1.35s' }}>{wedding.hero.timeLabel}</p>

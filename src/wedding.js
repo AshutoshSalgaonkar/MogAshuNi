@@ -1,9 +1,9 @@
 export const wedding = {
   title: "Ashutosh & Niliksha's Wedding",
   envelope: {
-    to: "For Our Family & Friends",
-    heading: "Shubh Vivah",
-    names: "Ashutosh & Niliksha",
+    to: "",
+    heading: "",
+    names: "#MogAshuNi",
     instruction: "Tap to Open Invitation",
   },
   blessing: "|| Shri Ganeshaya Namah ||",
@@ -11,8 +11,9 @@ export const wedding = {
     blessing: "Shubh Vivah",
     groom: "Ashutosh",
     bride: "Niliksha",
-    dateLabel: "Thursday, 3 December 2026",
-    timeLabel: "10:53 AM",
+    photo: `${import.meta.env.BASE_URL}couple.jpg`,
+    dateLabel: "Thursday, 3rd December 2026",
+    timeLabel: "at 10:53 AM",
     countdownIso: "2026-12-03T10:53:00+05:30",
   },
   groom: {

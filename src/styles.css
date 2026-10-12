@@ -877,6 +877,18 @@ section.is-visible {
   font-style: italic;
 }
 
+.couple-photo {
+  width: min(280px, 74vw);
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center 42%;
+  border: 3px solid var(--gold-accent);
+  border-radius: 140px 140px 12px 12px;
+  margin: 22px 0 4px;
+  display: block;
+  box-shadow: 0 16px 36px #1b30221f;
+}
+
 @media (width <= 768px) {
   .envelope { width: 320px; height: 220px; }
   .envelope-flap {
@@ -909,6 +921,7 @@ section.is-visible {
   .ganesh-icon { width: 50px; height: 50px; }
   .wedding-of { font-size: 1.25rem; }
   .couple-names { flex-direction: column; gap: 0; }
+  .couple-photo { width: min(230px, 68vw); margin: 16px 0 2px; border-radius: 115px 115px 10px 10px; }
   .ampersand { margin: 4px 0; font-size: 0.45em; }
   .hero h1 { font-size: 2.6rem; line-height: 1.15; }
   .hero-english { font-size: 1.05rem; }
