@@ -33,18 +33,6 @@ export function Invitation({ visible }) {
           </div>
           <Family person={wedding.bride} />
         </div>
-        <div className="divider-ornament" aria-hidden="true">
-          <div className="line" />
-          <div className="dot" />
-          <div className="line" />
-        </div>
-        <div className="ceremony">
-          <p className="time-box">
-            {wedding.ceremony.time} <span className="ampm">{wedding.ceremony.ampm}</span>
-          </p>
-          <h2 className="event-name">{wedding.ceremony.name}</h2>
-          <p className="event-desc">{wedding.ceremony.desc}</p>
-        </div>
         <div className="venue-info">
           <p className="venue-label">{wedding.venue.label}</p>
           <h2 className="venue-name">{wedding.venue.name}</h2>

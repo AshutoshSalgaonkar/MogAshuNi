@@ -31,12 +31,6 @@ export const wedding = {
     mapsUrl:
       "https://www.google.com/maps/search/?api=1&query=Khadpabandh+Ponda+Goa",
   },
-  ceremony: {
-    time: "10:53",
-    ampm: "AM",
-    name: "Wedding Muhurt",
-    desc: "Thursday, 3 December 2026",
-  },
   venue: {
     label: "The Venue",
     name: "Shivtej Hall",
