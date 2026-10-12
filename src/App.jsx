@@ -4,10 +4,18 @@ import { Hero } from './components/Hero'
 import { Invitation } from './components/Invitation'
 import { Petals } from './components/Decorations'
 import { Mandala } from './components/Icons'
+import { invitationSide } from './wedding'
 
 export default function App() {
   const [opened, setOpened] = useState(false)
   const [visible, setVisible] = useState({})
+
+  useEffect(() => {
+    if (invitationSide === 'bride' && window.location.hash !== '#MogAshuNi') {
+      const { pathname, search } = window.location
+      window.history.replaceState(null, '', `${pathname}${search}#MogAshuNi`)
+    }
+  }, [])
 
   useEffect(() => {
     const observer = new IntersectionObserver(

@@ -19,11 +19,11 @@ function pad(value) {
 }
 
 export function Countdown() {
-  const [time, setTime] = useState(() => remaining(wedding.hero.countdownIso))
+  const [time, setTime] = useState(() => remaining(wedding.ceremony.countdownIso))
 
   useEffect(() => {
     const id = setInterval(() => {
-      setTime(remaining(wedding.hero.countdownIso))
+      setTime(remaining(wedding.ceremony.countdownIso))
     }, 1000)
     return () => clearInterval(id)
   }, [])

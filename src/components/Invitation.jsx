@@ -1,22 +1,9 @@
-import { wedding } from '../wedding'
+import { side, wedding } from '../wedding'
 import { Corner, MapPin } from './Icons'
 
-function Family({ person }) {
-  return (
-    <article className="family">
-      <p className="family-role">{person.role}</p>
-      <h2 className="family-name">{person.name}</h2>
-      <p className="family-relation">{person.relation}</p>
-      <p className="family-address">{person.address}</p>
-      <a className="home-directions" href={person.mapsUrl} target="_blank" rel="noopener noreferrer">
-        <MapPin />
-        Directions
-      </a>
-    </article>
-  )
-}
-
 export function Invitation({ visible }) {
+  const { haldi } = side
+
   return (
     <section id="invitation" className={visible ? 'is-visible' : ''}>
       <div className="heritage-card">
@@ -24,14 +11,15 @@ export function Invitation({ visible }) {
         <Corner className="card-corner corner-tr" />
         <Corner className="card-corner corner-bl" />
         <Corner className="card-corner corner-br" />
-        <div className="family-grid">
-          <Family person={wedding.groom} />
-          <div className="family-split" aria-hidden="true">
-            <span className="line" />
-            <span className="dot" />
-            <span className="line" />
-          </div>
-          <Family person={wedding.bride} />
+        <div className="haldi-info">
+          <p className="venue-label">{haldi.label}</p>
+          <h2 className="haldi-date">{haldi.dateLabel}</h2>
+          <p className="haldi-time">{haldi.timeLabel}</p>
+          <p className="haldi-address">{haldi.address}</p>
+          <a className="home-directions" href={haldi.mapsUrl} target="_blank" rel="noopener noreferrer">
+            <MapPin />
+            Directions
+          </a>
         </div>
         <div className="venue-info">
           <p className="venue-label">{wedding.venue.label}</p>
