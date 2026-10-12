@@ -475,21 +475,22 @@ button.envelope {
 }
 
 .wedding-of {
-  font-family: var(--font-devanagari);
+  font-family: var(--font-serif);
+  font-style: italic;
   color: var(--gold-accent);
   margin: 8px 0 10px;
   font-size: 1.7rem;
 }
 
 .hero h1 {
-  font-family: var(--font-devanagari);
+  font-family: var(--font-serif);
   color: var(--kunku-red);
   text-shadow: 1px 1px 2px #c5a02833;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   margin: 0;
-  font-size: clamp(3.2rem, 8vw, 6.2rem);
+  font-size: clamp(2.8rem, 7vw, 5.2rem);
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.15;
 }
 
 .hero-english {
@@ -659,35 +660,18 @@ section.is-visible {
   margin-top: 2px;
 }
 
-.family-name-mr {
-  font-family: var(--font-devanagari);
-  font-size: 1.55rem;
-  line-height: 1.45;
-  margin: 0 0 4px;
-}
-
-.family-name-en {
+.family-name {
   font-family: var(--font-serif);
-  font-style: italic;
-  color: var(--forest-green);
-  margin: 0 0 16px;
-  font-size: 1.05rem;
+  font-size: 1.7rem;
+  line-height: 1.35;
+  margin: 0 0 14px;
 }
 
 .family-relation,
 .family-address {
-  font-family: var(--font-devanagari);
-  margin: 0;
-  color: var(--text-main);
-  line-height: 1.7;
-}
-
-.family-relation-en,
-.family-address-en {
   margin: 0 0 12px;
   color: var(--text-main);
-  opacity: 0.75;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   line-height: 1.6;
 }
 
@@ -730,24 +714,14 @@ section.is-visible {
 
 .event-name {
   font-size: 2.2rem;
-  font-family: var(--font-devanagari);
-  color: var(--kunku-red);
-  margin: 0 0 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.event-name-en {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 1.15rem;
-  color: var(--forest-green);
+  color: var(--kunku-red);
+  margin: 0 0 8px;
   font-weight: 500;
 }
 
 .event-desc {
-  font-family: var(--font-devanagari);
   color: var(--text-main);
   max-width: 420px;
   margin: 0 auto;
@@ -904,7 +878,7 @@ section.is-visible {
   .wedding-of { font-size: 1.25rem; }
   .couple-names { flex-direction: column; gap: 0; }
   .ampersand { margin: 4px 0; font-size: 0.45em; }
-  .hero h1 { font-size: 3.2rem; line-height: 1.2; }
+  .hero h1 { font-size: 2.6rem; line-height: 1.15; }
   .hero-english { font-size: 1.05rem; }
   .hero-divider { width: 100px; margin: 18px 0; }
   .date,
@@ -924,7 +898,7 @@ section.is-visible {
   .corner-br { bottom: 10px; right: 10px; }
   .family-grid { grid-template-columns: 1fr; gap: 32px; }
   .family-split { display: none; }
-  .family-name-mr { font-size: 1.35rem; }
+  .family-name { font-size: 1.4rem; }
   .event-name { font-size: 1.7rem; }
   .venue-name { font-size: 1.8rem; }
   .venue-address { padding: 0 10px; font-size: 1rem; }

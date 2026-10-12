@@ -14,23 +14,13 @@ export function Hero() {
       <Mandala className="hero-mandala" />
       <div className="hero-content">
         <Ganesh className="ganesh-icon reveal" style={{ animationDelay: '0.2s' }} />
-        <div className="blessings reveal" style={{ animationDelay: '0.4s' }}>
-          {wedding.blessings.map((blessing) => (
-            <p key={blessing.mr} className="blessing">
-              <span className="blessing-mr" lang="mr">{blessing.mr}</span>
-              <span className="blessing-en">{blessing.en}</span>
-            </p>
-          ))}
-        </div>
-        <p className="wedding-of reveal" style={{ animationDelay: '0.6s' }} lang="mr">
-          {wedding.hero.blessing}
-        </p>
+        <p className="blessing-en reveal" style={{ animationDelay: '0.4s' }}>{wedding.blessing}</p>
+        <p className="wedding-of reveal" style={{ animationDelay: '0.6s' }}>{wedding.hero.blessing}</p>
         <h1 className="reveal couple-names" style={{ animationDelay: '0.9s' }}>
-          <span lang="mr">{wedding.hero.groom}</span>
+          <span>{wedding.hero.groom}</span>
           <span className="ampersand">&</span>
-          <span lang="mr">{wedding.hero.bride}</span>
+          <span>{wedding.hero.bride}</span>
         </h1>
-        <p className="hero-english reveal" style={{ animationDelay: '1s' }}>{wedding.hero.namesEn}</p>
         <div className="hero-divider reveal" style={{ animationDelay: '1.1s' }} />
         <p className="date reveal" style={{ animationDelay: '1.2s' }}>{wedding.hero.dateLabel}</p>
         <p className="muhurt-time reveal" style={{ animationDelay: '1.35s' }}>{wedding.hero.timeLabel}</p>

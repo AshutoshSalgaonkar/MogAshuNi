@@ -4,16 +4,10 @@ import { Corner, MapPin } from './Icons'
 function Family({ person }) {
   return (
     <article className="family">
-      <p className="family-role">
-        <span lang="mr">{person.roleMr}</span>
-        <span className="family-role-en">{person.roleEn}</span>
-      </p>
-      <h2 className="family-name-mr" lang="mr">{person.nameMr}</h2>
-      <p className="family-name-en">{person.nameEn}</p>
-      <p className="family-relation" lang="mr">{person.relationMr}</p>
-      <p className="family-relation-en">{person.relationEn}</p>
-      <p className="family-address" lang="mr">{person.addressMr}</p>
-      <p className="family-address-en">{person.addressEn}</p>
+      <p className="family-role">{person.role}</p>
+      <h2 className="family-name">{person.name}</h2>
+      <p className="family-relation">{person.relation}</p>
+      <p className="family-address">{person.address}</p>
     </article>
   )
 }
@@ -44,12 +38,8 @@ export function Invitation({ visible }) {
           <p className="time-box">
             {wedding.ceremony.time} <span className="ampm">{wedding.ceremony.ampm}</span>
           </p>
-          <h2 className="event-name">
-            <span lang="mr">{wedding.ceremony.nameMr}</span>
-            <span className="event-name-en">{wedding.ceremony.nameEn}</span>
-          </h2>
-          <p className="event-desc" lang="mr">{wedding.ceremony.descMr}</p>
-          <p className="event-desc-en">{wedding.ceremony.descEn}</p>
+          <h2 className="event-name">{wedding.ceremony.name}</h2>
+          <p className="event-desc">{wedding.ceremony.desc}</p>
         </div>
         <div className="venue-info">
           <p className="venue-label">{wedding.venue.label}</p>
