@@ -533,6 +533,8 @@ button.envelope {
   font-style: normal;
   letter-spacing: 0;
   color: var(--kunku-red);
+  -webkit-text-stroke: 0.4px var(--kunku-red);
+  paint-order: stroke fill;
   margin: 0 0 2px;
   font-size: 1.85rem;
   font-weight: 400;
