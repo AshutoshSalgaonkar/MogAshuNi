@@ -597,7 +597,11 @@ section.is-visible {
 }
 
 .heritage-card {
-  background: #fff;
+  background-color: #fff;
+  background-image: linear-gradient(#ffffffcc, #ffffffcc), url('./assets/couple-portrait.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 1px solid #c5a0284d;
   max-width: 920px;
   margin: 0 auto;
@@ -771,7 +775,7 @@ section.is-visible {
 }
 
 .venue-info {
-  background-color: #fffef6;
+  background-color: #fffef673;
   background-image: radial-gradient(var(--gold-accent) 0.5px, transparent 0.5px);
   background-size: 18px 18px;
   border: 1px solid #c5a02833;
