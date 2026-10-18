@@ -18,7 +18,7 @@ export const wedding = {
   envelope: {
     to: "",
     heading: "",
-    names: "#MogAshuNi",
+    names: "#Mog AshuNi",
     instruction: "Tap to Open Invitation",
   },
   blessing: "|| Shri Ganeshay Namah ||",

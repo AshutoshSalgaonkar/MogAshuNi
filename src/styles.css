@@ -203,7 +203,11 @@ button.envelope {
 
 .preview-names {
   margin-top: 6px;
-  font-size: 1.15rem;
+  font-family: var(--font-serif);
+  font-style: italic;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+  font-size: 1.35rem;
   opacity: 0.85;
 }
 
@@ -525,11 +529,14 @@ button.envelope {
 
 .date,
 .muhurt-time {
-  letter-spacing: 5px;
+  font-family: var(--font-cursive);
+  font-style: normal;
+  letter-spacing: 0;
   color: var(--kunku-red);
-  margin: 0 0 8px;
-  font-size: 1.05rem;
-  font-weight: 600;
+  margin: 0 0 2px;
+  font-size: 1.85rem;
+  font-weight: 400;
+  line-height: 1.15;
 }
 
 .countdown-container {
@@ -688,9 +695,13 @@ section.is-visible {
 .home-directions {
   color: var(--kunku-red);
   letter-spacing: 0.4px;
+  background: #ffffffd9;
+  border: 1px solid #c5a02855;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
   margin: 0 0 4px;
+  padding: 8px 14px;
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.45;
@@ -706,6 +717,7 @@ section.is-visible {
 
 .home-directions:hover {
   color: var(--forest-green);
+  border-color: var(--gold-accent);
 }
 
 .home-directions:focus-visible {
@@ -957,7 +969,7 @@ section.is-visible {
   .wax-seal { width: 70px; height: 70px; }
   .invitation-card-preview { height: 204px; padding: 8px 12px 12px; }
   .preview-heading { font-size: 1.55rem; }
-  .preview-names { margin-top: 2px; font-size: 0.92rem; }
+  .preview-names { margin-top: 2px; font-size: 1.1rem; }
   .to-label { font-size: 1.45rem; bottom: -46px; }
   .envelope.opened .invitation-card-preview { transform: translateY(-170px); }
   .envelope-instruction { letter-spacing: 2px; font-size: 0.72rem; bottom: -78px; }
@@ -993,7 +1005,7 @@ section.is-visible {
   .hero-english { font-size: 1.05rem; }
   .hero-divider { width: 100px; margin: 8px 0; }
   .date,
-  .muhurt-time { letter-spacing: 2px; font-size: 0.9rem; }
+  .muhurt-time { letter-spacing: 0; font-size: 1.45rem; }
   .blessing-mr { font-size: 0.95rem; }
   .countdown-container { gap: 12px; max-width: 320px; margin-top: 8px; padding: 12px 16px; }
   .countdown-item { min-width: 45px; }
